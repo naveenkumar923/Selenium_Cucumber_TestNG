@@ -1,0 +1,6 @@
+sub1=Telugu
+mark1=45
+sub2=Hindi
+mark2=60
+sub3=English
+mark3=55
