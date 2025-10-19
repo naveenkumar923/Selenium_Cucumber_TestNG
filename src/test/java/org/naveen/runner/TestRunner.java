@@ -14,7 +14,7 @@ import org.testng.annotations.DataProvider;
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         publish = true,
-        tags = "@WebTable"
+        tags = ""
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
