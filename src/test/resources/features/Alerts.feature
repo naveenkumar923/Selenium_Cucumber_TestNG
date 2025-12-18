@@ -1,4 +1,4 @@
-Feature: Thsi feature is to practice interactions with alerts
+Feature: This feature is to practice interactions with alerts
 
 
   @alerts

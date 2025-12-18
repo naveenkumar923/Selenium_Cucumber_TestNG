@@ -5,8 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        features = "src/test/resources/features",
-        glue = "org/naveen/stepDefinitions",
+        features ={ "src/test/resources/features"},
+        glue ={"org/naveen/webUi/stepDefinitions"},
         plugin={
 //                "pretty",
 //                "html:target\\reports\\html.html",
@@ -14,7 +14,7 @@ import org.testng.annotations.DataProvider;
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         publish = true,
-        tags = ""
+        tags = "@promptalert"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
