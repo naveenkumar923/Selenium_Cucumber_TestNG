@@ -6,8 +6,7 @@ Feature: This feature is to test login page functionalities
     Then Login page should be displayed
 
 
-
-
+  @login
   Scenario: To check if Home Link is present on Login page
     Given User launches the login page
     Then Home Link should be present

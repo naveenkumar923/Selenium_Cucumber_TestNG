@@ -6,9 +6,8 @@ Feature: This is to test Actions class in Selenium
     Then Perform the Drag and drop action
 
 
-
   @Actions@Rightclick
-    Scenario: Right click
+  Scenario: Right click
     Given user access rightclick page
     When user clicks on the box
     Then user switches to the alert and prints the text
@@ -16,7 +15,7 @@ Feature: This is to test Actions class in Selenium
 
 
   @Actions@Slider
-    Scenario: Horizontal Slider
+  Scenario: Horizontal Slider
     Given user is on slider page
     When user slides the bar
     Then print the slider value

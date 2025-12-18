@@ -1,4 +1,4 @@
-Feature: Thsi feature is to practice interactions with alerts
+Feature: This feature is to practice interactions with alerts
 
 
   @alerts
@@ -32,7 +32,7 @@ Feature: Thsi feature is to practice interactions with alerts
 
 
   @alerts@promptalert
-    Scenario: To test a prompt alert
+  Scenario: To test a prompt alert
     Given Alert page is launched
     When prompt alert is clicked
     Then print the alert text
